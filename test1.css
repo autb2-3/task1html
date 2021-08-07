@@ -780,6 +780,38 @@ header{
           order: 1;
           margin: 0 auto;
 }
+.furture-2-data{
+          display: flex;
+          flex-direction: column;
+}
+.furture-2-data img{
+          padding:30px;
+          width: 80%;
+          margin: 0 auto;
+}
+.voice-content{
+          width:80%;
+          margin: 0 auto;
+}
+.voice-content ul{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+.voice-content li{
+          width:100%;
+}
+.interview-media-thumbnail img {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.interview-media-thumbnail{
+    height: auto;    
+}
+.furture{
+           margin-bottom: 0px;
+}
 }
 
 @media screen and (max-width:767px){
@@ -813,5 +845,19 @@ header{
 }
 .tensyokusaki-img li{
           width:50%;
+}
+
+
+.furture-review {
+          display: flex;
+          flex-direction: column;
+}
+.service-contents ul{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+.service-contents li{
+          width: 80%;
 }
 }
