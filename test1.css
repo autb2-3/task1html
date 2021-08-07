@@ -1,6 +1,9 @@
 *,*:before,*:after{
           box-sizing: border-box;
 }
+a{
+          display: block;
+}
 html{
 -webkit-text-size-adjust:100%;
 }
@@ -21,7 +24,9 @@ header{
           width: 75%;
           margin: 0 auto;
 }
-
+.hover-op :hover{
+          opacity: 0.7;
+}
 .section-title{
           text-align:center;
 }
@@ -35,6 +40,12 @@ header{
           width: auto;
           height: 20px;
           vertical-align:middle;
+}
+.header-contents-POTEPAN :hover{
+          opacity: 0.9;
+}
+.header-list :hover{
+          opacity: 0.7;
 }
 .header-contents{
           display: flex;
@@ -62,14 +73,10 @@ header{
           font-size: 14px;
 }
 
-.free{
-          background-color:#f79314;
-          border-radius: 30px;
-          height:40px;
-          padding: 10px;
-          
-}
+
 .free a{
+          background-color:rgb(247, 147, 20);
+          border-radius: 30px;
           color: white;
           font-weight: bold;
           font-size: 12px;
@@ -78,8 +85,8 @@ header{
           justify-content:center;
           align-items:center;
           height: 40px;
+          padding: 0 5px;
 }
-
 .background-1{
           background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
           background-size: auto;
@@ -112,13 +119,13 @@ header{
           background-color:#f79314;
           display: block;
           border-radius: 30px;
-          width: 300px;
+          width: max-content;
           text-align: center;
           height:40px;
           color: white;
           font-weight: bold;
           font-size: 15px;
-          padding: 10px;
+          padding: 10px 100px;
           text-decoration: none;
 }
 .section-top p{
@@ -403,8 +410,6 @@ header{
           text-align: center;
 }
 .course-btn{
-          background-color: #f79314;
-          border-radius: 30px;
           text-align: center;
           font-size: 15px;
           width: 30%;
@@ -417,10 +422,11 @@ header{
           letter-spacing: 3px;
 }
 .course-btn a{
+          background-color: #f79314;
+          border-radius: 30px;
           text-decoration: none;
           margin: 0 auto;
           color: white;
-          display: block;
 }
 .survice-text{
           display: flex;
@@ -519,18 +525,10 @@ header{
           color: black;
 }
 .voice-btn{
-          background-color: #f79314;
-          border-radius: 30px;
-          text-align: center;
-          font-size: 14px;
           width: 30%;
-          height: 60px;
           margin: 0 auto;
-          display: flex;
-          flex-direction:column;
-          align-items:center;
-          justify-content:center;
-          margin-bottom: 100px;
+          margin-bottom: 80px;
+          vertical-align: middle;
 }
 .voice-btn span{
           font-size: 20px;
@@ -538,8 +536,19 @@ header{
           font-weight: bold;
 }
 .voice-btn a{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          color: #fff;
+          background-color: #f79314;
+          border-radius: 30px;
           text-decoration: none;
-          color: white;
+          text-align: center;
+          align-items: center;
+          width: 100%;
+          font-size: 16px;
+          border: none;
+         
 }
 .tutorial-view{
           position: relative;
@@ -731,7 +740,7 @@ header{
           background-color:rgba(0, 0, 0, 0.8);
 }
 .section-top{
-          width:100%;
+          width:100%!important;
 }
 .no1-img{
           position: relative;
